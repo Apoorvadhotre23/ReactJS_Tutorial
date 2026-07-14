@@ -1,9 +1,12 @@
 
 import { createRoot } from 'react-dom/client'
-import App from './App.jsx'
+
+import Variables from './JSX/Variables.jsx'
 
 createRoot(document.getElementById('root')).render(
   
-    <App />
+   <>
+    <Variables/>
+   </>
  
 )
