@@ -1,11 +1,11 @@
 
 import { createRoot } from 'react-dom/client'
-import Components_example from './Components/Components_example.jsx'
+import Arrays from './JSX/Arrays'
 
 createRoot(document.getElementById('root')).render(
   
    <>
-    <Components_example/>
+     <Arrays/>
    </>
  
 )
