@@ -1,13 +1,12 @@
 
 import { createRoot } from 'react-dom/client'
-import FunExample from './Functions/FunExample'
-import FunExample2 from './Functions/FunExample2'
+import ClassComponents from './Components/TypesOfComponents/ClassComponents'
+import FunctionalComponent from './Components/TypesOfComponents/FunctionalComponent'
 
 createRoot(document.getElementById('root')).render(
   
    <>
-    <FunExample/>
-    <FunExample2/>
+    <FunctionalComponent/>
    </>
  
 )
