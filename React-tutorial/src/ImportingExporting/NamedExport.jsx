@@ -5,8 +5,6 @@ export function NamedExport() {
   )
 }
 
-
-
 export function MultipleExport() {
     return (
         <h2>Multiple Export</h2>
