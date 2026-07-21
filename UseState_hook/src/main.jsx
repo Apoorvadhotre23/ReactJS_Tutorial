@@ -5,6 +5,7 @@ import ToggleFeature from './Components/ToggleFeature.jsx'
 import ChangeText from './Components/ChangeText.jsx'
 import ToggleTheam from './Components/ToggleTheam.jsx'
 import Show_Hide_password from './Components/Show_Hide_password.jsx'
+import Like_button from './Components/Like_button.jsx'
 
 createRoot(document.getElementById('root')).render(
   <>
@@ -18,5 +19,6 @@ createRoot(document.getElementById('root')).render(
     <hr />
     <Show_Hide_password/>
     <hr />
+    <Like_button/>
   </>
 )
