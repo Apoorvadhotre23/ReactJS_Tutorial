@@ -4,8 +4,8 @@ function ToggleTheam() {
     const[colour, setColour] = useState("black");
 
   function colourChange() {
-  setColour((previousColour) =>
-    previousColour === "black" ? "white" : "black"
+  setColour((colour) =>
+    colour === "black" ? "white" : "black"
   );
 }
 
