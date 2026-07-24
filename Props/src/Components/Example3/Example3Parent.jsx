@@ -18,13 +18,26 @@ function Example3Parent() {
         role: "Python Stack developer",
         place: "Pune"
     }
+
+    let object4 = {
+        name: "Apoorva",
+        role: "Automation Testing",
+        place: "Japana"
+    }
+
   return (
-    <div>
-        <h3>User Details</h3>
+    <>
+    <h3>User Details</h3>
+    <div style={{display:"flex", flexDirection:"row", justifyContent:"space-between"}}>
         <Example3 object={object1}/>
         <Example3 object={object2}/>
         <Example3 object={object3}/>
+        <Example3 object={object4}/>
+         <Example3 object={object4}/>
     </div>
+    
+    </>
+    
   )
 }
 

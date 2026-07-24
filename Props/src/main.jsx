@@ -7,6 +7,7 @@ import '/src/main.css'
 import Default_Parent from './Components/Default_Props/Default_Parent.jsx'
 import ArraysParent from './Components/ArraysInProps/ArraysParent.jsx'
 import Parent from './Components/FunctionAsProps/Parent.jsx'
+import ControlledComponent from './Components/ControlledComponents/ControlledComponent.jsx'
 
 
 createRoot(document.getElementById('root')).render(
@@ -18,6 +19,7 @@ createRoot(document.getElementById('root')).render(
     <Default_Parent/>
     <ArraysParent/>
     <Parent/>
+    <ControlledComponent/>
   </div>
 
   
