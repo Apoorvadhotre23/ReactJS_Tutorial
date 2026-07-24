@@ -5,6 +5,7 @@ import Example2Parent from './Components/Example2/Example2Parent.jsx'
 import Example3Parent from './Components/Example3/Example3Parent.jsx'
 import '/src/main.css'
 import Default_Parent from './Components/Default_Props/Default_Parent.jsx'
+import ArraysParent from './Components/ArraysInProps/ArraysParent.jsx'
 
 
 createRoot(document.getElementById('root')).render(
@@ -14,6 +15,7 @@ createRoot(document.getElementById('root')).render(
     <Example2Parent/>
     <Example3Parent/>
     <Default_Parent/>
+    <ArraysParent/>
   </div>
 
   
