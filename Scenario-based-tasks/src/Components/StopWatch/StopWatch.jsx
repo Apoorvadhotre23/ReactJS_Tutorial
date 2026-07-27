@@ -22,7 +22,7 @@ function StopWatch() {
         <h3>Stop Watch in ReactJS</h3>
         <h4>{time} seconds</h4>
 
-       <button onClick={() => setRunning(true)}>Start</button>
+      <button onClick={() => setRunning(true)}>Start</button>
       <button onClick={() => setRunning(false)}>Stop</button>
       <button onClick={() => setTime(0)}>Reset</button>
 
