@@ -9,6 +9,7 @@ import ArraysParent from './Components/ArraysInProps/ArraysParent.jsx'
 import Parent from './Components/FunctionAsProps/Parent.jsx'
 import ControlledComponent from './Components/ControlledComponents/ControlledComponent.jsx'
 import TextInput from './Components/ControlledComponents/TextInput.jsx'
+import DropDown from './Components/ControlledComponents/DropDown.jsx'
 
 
 createRoot(document.getElementById('root')).render(
@@ -22,6 +23,7 @@ createRoot(document.getElementById('root')).render(
     <Parent/>
     <ControlledComponent/> <br />
     <TextInput/>
+    <DropDown/>
   </div>
 
   
