@@ -4,6 +4,7 @@ import UserCard from './Components/Inline_CSS/UserCard'
 import Dynamic from './Components/Dynamic_&_Conditional_Style/Dynamic'
 import ConditinalStyle from './Components/Dynamic_&_Conditional_Style/ConditinalStyle'
 import External from './Components/External_css/External'
+import Module from './Components/CSS_Module/Module'
 
 
 
@@ -17,6 +18,7 @@ createRoot(document.getElementById('root')).render(
     <ConditinalStyle/>
     <hr />
     <External/>
-    
+    <hr />
+    <Module/>
   </>,
 )
