@@ -3,6 +3,7 @@ import App from './App.jsx'
 import ClearInput from './Components/ClearInput.jsx'
 import ChangeBackground from './Components/ChangeBackground.jsx'
 import PreviousValue from './Components/PreviousValue.jsx'
+import VideoPlayPause from './Components/VideoPlayPause.jsx'
 
 createRoot(document.getElementById('root')).render(
   <>
@@ -10,5 +11,6 @@ createRoot(document.getElementById('root')).render(
     <ClearInput/>
     <ChangeBackground/>
     <PreviousValue/>
+    <VideoPlayPause/>
   </>,
 )
