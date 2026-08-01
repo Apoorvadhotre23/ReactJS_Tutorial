@@ -10,6 +10,7 @@ import Parent from './Components/FunctionAsProps/Parent.jsx'
 import ControlledComponent from './Components/ControlledComponents/ControlledComponent.jsx'
 import TextInput from './Components/ControlledComponents/TextInput.jsx'
 import DropDown from './Components/ControlledComponents/DropDown.jsx'
+import ParentControl from './Components/CallParentComponentsFromChild/ParentControl.jsx'
 
 
 createRoot(document.getElementById('root')).render(
@@ -24,6 +25,8 @@ createRoot(document.getElementById('root')).render(
     <ControlledComponent/> <br />
     <TextInput/>
     <DropDown/>
+    <br /><hr />
+    <ParentControl/>
   </div>
 
   
