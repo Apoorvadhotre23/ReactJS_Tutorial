@@ -5,6 +5,7 @@ import CartTotal from './Components/DerivedState/CartTotal'
 import Parent_liftState from './Components/Lifting_State/Parent_liftState'
 import App2 from './Components/Lifting_State/Lifting_state_ex2/App2'
 import Object from './Components/Updating_Objects/Object'
+import App from './App'
 
 
 createRoot(document.getElementById('root')).render(
@@ -18,5 +19,7 @@ createRoot(document.getElementById('root')).render(
     <App2/>
     <hr />
     <Object/>
+    <hr />
+    <App/>
   </>,
 )

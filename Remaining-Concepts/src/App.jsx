@@ -1,8 +1,11 @@
+import Context_api from "./Components/Context_API_Hook/Context_api"
 
 
 function App() {
   return (
-    <div>App</div>
+    <div>
+      <Context_api/>
+    </div>
   )
 }
 
