@@ -1,10 +1,10 @@
 
 import { createRoot } from 'react-dom/client'
 import { BrowserRouter } from 'react-router-dom'
-import Mainpage from './Component/Router_3/Mainpage.jsx'
+import Main_nested_page from './Component/Nested_Router/Main_nested_page.jsx'
 
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
-    <Mainpage/>
+    <Main_nested_page/>
   </BrowserRouter>,
 )
