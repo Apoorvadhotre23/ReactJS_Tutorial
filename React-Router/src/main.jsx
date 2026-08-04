@@ -1,10 +1,10 @@
 
 import { createRoot } from 'react-dom/client'
 import { BrowserRouter } from 'react-router-dom'
-import MainPage2 from './Component/Router_2/MainPage2.jsx'
+import Mainpage from './Component/Router_3/Mainpage.jsx'
 
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
-   <MainPage2/>
+    <Mainpage/>
   </BrowserRouter>,
 )

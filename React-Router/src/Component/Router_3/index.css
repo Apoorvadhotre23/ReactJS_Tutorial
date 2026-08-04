@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.navsection {
+    background-color: rgb(237, 237, 250);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.items {
+    width: 230px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.items ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+   
+}
+
+.items a {
+    text-decoration: none;
+}
+
