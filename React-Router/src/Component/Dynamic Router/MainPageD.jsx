@@ -7,8 +7,8 @@ import College from "./College"
 import Student from "./College File/Student"
 import Enrollment from "./College File/Enrollment"
 import CollegeDetail from "./College File/CollegeDetail"
-import UserList from "./User List/UserList"
-import UserDetail from "./User List/UserDetail"
+import UserList from "./UserList/UserList"
+import UserDetail from "./UserList/UserDetail"
 
 function MainPageD() {
   return (
@@ -17,11 +17,12 @@ function MainPageD() {
         
         <Routes>
             <Route element={<NavBar/>}>
+              <Route path="/" element={<Home/>}/>
               <Route path="/home" element={<Home/>}/>
               <Route path="/login" element={<Login/>}/>
               <Route path="/about" element={<About/>}/>
                <Route path="/users" element={<UserList/>}/>
-               <Route path="users/:id/:name" element={<UserDetail/>}/>
+               <Route path="/users/:id/:name" element={<UserDetail/>}/>
             </Route>
            
             <Route path="/college" element={<College/>}>
