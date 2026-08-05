@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.divMain{
+    background-color: rgb(226, 226, 243);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.divMain a{
+    text-decoration: none;
+}
+
+.links {
+    display: flex;
+    width: 370px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subLinks {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.subLinks a {
+    text-decoration: none;
+}
+
+

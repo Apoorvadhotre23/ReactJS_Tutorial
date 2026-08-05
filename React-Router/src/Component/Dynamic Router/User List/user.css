@@ -1,0 +1,15 @@
+.userDiv  a {
+    text-decoration: none;
+}
+
+.userDiv {
+    padding-left: 20px;
+}
+
+.userDiv2 {
+    padding: 10px;
+}
+
+.userDiv2 a {
+    text-decoration: none;
+}
