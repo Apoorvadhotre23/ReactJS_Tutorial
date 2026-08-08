@@ -1,9 +1,9 @@
 
 import { createRoot } from 'react-dom/client'
-import FetchApi from './Components/FetchApi.jsx'
+import Loader from './Components/Loader.jsx'
 
 createRoot(document.getElementById('root')).render(
   <>
-    <FetchApi/>
+    <Loader/>
   </>,
 )
