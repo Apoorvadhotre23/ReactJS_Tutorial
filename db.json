@@ -35,12 +35,6 @@
       "firstName": "Niharika",
       "lastName": "Dube",
       "age": 22
-    },
-    {
-      "id": "7",
-      "firstName": "Jay",
-      "lastName": "Dev",
-      "age": "36"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
