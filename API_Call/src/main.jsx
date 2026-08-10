@@ -1,9 +1,10 @@
 
 import { createRoot } from 'react-dom/client'
-import Loader from './Components/Loader.jsx'
+import CurdMain from './Components/CURD Operations/CurdMain.jsx'
+import { BrowserRouter } from 'react-router-dom'
 
 createRoot(document.getElementById('root')).render(
-  <>
-    <Loader/>
-  </>,
+  <BrowserRouter>
+     <CurdMain/>
+  </BrowserRouter>,
 )

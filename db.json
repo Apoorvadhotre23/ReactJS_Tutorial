@@ -1,16 +1,47 @@
 {
   "users": [
     {
-      "id": 1,
+      "id": "1",
       "firstName": "Apoorva",
       "lastName": "Dhotre",
       "age": 23
     },
     {
-      "id": 2,
+      "id": "2",
       "firstName": "Rahul",
       "lastName": "Kumar",
       "age": 24
+    },
+    {
+      "id": "3",
+      "firstName": "Narendra",
+      "lastName": "Kumar",
+      "age": 26
+    },
+    {
+      "id": "4",
+      "firstName": "Rohit",
+      "lastName": "Saraf",
+      "age": 28
+    },
+    {
+      "id": "5",
+      "firstName": "Kajal",
+      "lastName": "Sharma",
+      "age": 24
+    },
+    {
+      "id": "6",
+      "firstName": "Niharika",
+      "lastName": "Dube",
+      "age": 22
+    },
+    {
+      "id": "7",
+      "firstName": "Jay",
+      "lastName": "Dev",
+      "age": "36"
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
