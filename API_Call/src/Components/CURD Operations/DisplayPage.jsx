@@ -1,10 +1,11 @@
 import { useEffect, useState } from "react";
 import "./DisplayPage.css";
+import { useNavigate } from "react-router-dom";
 
 function DisplayPage() {
   const [user, setUser] = useState([]);
   const[msg, setMsg] = useState("");
-
+  const navigate= useNavigate();
  
   async function getUser() {
     const url = "http://localhost:3000/users";
@@ -20,6 +21,8 @@ function DisplayPage() {
     getUser();
   }, []);
 
+  // -------------------- Delete Function Logic ------------------------//
+
  async function deleteUser(id) {
   let response = await fetch(`http://localhost:3000/users/${id}`, {
     method: "DELETE"
@@ -29,6 +32,12 @@ function DisplayPage() {
     setMsg("User Deleted Sucessfully!")
   }
   getUser(); 
+}
+
+//------------------------------------Edit User--------------------------------------//
+
+async function edituser(id) {
+  navigate("/edit/"+id);
 }
 
   return (
@@ -53,7 +62,11 @@ function DisplayPage() {
               <td>{item.firstName}</td>
               <td>{item.lastName}</td>
               <td>{item.age}</td>
-              <td><button onClick={()=>deleteUser(item.id)}>delete</button></td>
+              <td className="button-div">
+                <button onClick={()=>deleteUser(item.id)}>delete</button>
+                <button onClick={()=>edituser(item.id)}>edit</button>
+              </td>
+              
             </tr>
           ))}
         </tbody>
