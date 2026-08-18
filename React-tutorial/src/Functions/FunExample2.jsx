@@ -1,5 +1,5 @@
-// When you pass only function refernce i>e function name then
-//  it will call when you want, it will not remder automatically
+// When you pass only function reference i.e function name then
+//  it will call the functions when you want, it will not render automatically
 function FunExample2() {
 
     function greet() {
