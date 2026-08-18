@@ -8,9 +8,14 @@ import StopWatch from './Components/StopWatch/StopWatch.jsx'
 createRoot(document.getElementById('root')).render(
   <>
     <CheckBox/>
+    <hr />
     <RadioButton/>
+    <hr />
     <DropDown/>
+    <hr />
     <Clock/>
+    <hr />
     <StopWatch/>
+    <hr />
   </>,
 )
