@@ -5,7 +5,11 @@ function ChangeText() {
     const[text, setText] = useState("Welcome to our Page!");
 
     function change() {
-        setText("This is React Learning page welcome again!");
+      setText("This is React Learning page welcome again!");
+      setTimeout(()=>{
+         setText("Welcome to our Page!");
+      }, 3000);
+       
     }
 
   return (
